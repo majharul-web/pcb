@@ -1,0 +1,86 @@
+body,
+html {
+  overflow-x: hidden;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* bootstrap form customization */
+.form-check-input {
+  outline: none;
+  box-shadow: none;
+}
+.form-check-input:checked {
+  background-color: #cc181e;
+  border-color: #cc181e;
+  outline: none;
+  box-shadow: none;
+}
+.form-check-input::after {
+  box-shadow: none;
+}
+.form-check-input::before {
+  box-shadow: none;
+}
+
+.form-select {
+  border: 1px solid #cc181e;
+  border-radius: 3px;
+  box-shadow: none;
+  outline: 0 none;
+  padding: 6px 6px;
+}
+.form-select:focus {
+  border: 1px solid #cc181e;
+  border-radius: 3px;
+  box-shadow: none;
+  outline: 0 none;
+  padding: 6px 6px;
+}
+.form-control {
+  border: 1px solid #cc181e;
+  border-radius: 3px;
+  box-shadow: none;
+  outline: 0 none;
+  padding: 6px 6px;
+}
+.form-control:focus {
+  border: 1px solid #cc181e;
+  border-radius: 3px;
+  box-shadow: none;
+  outline: 0 none;
+  padding: 6px 6px;
+}
+textarea:focus,
+input[type="text"],
+input[type="password"],
+input[type="number"],
+input[type="email"],
+input[type="tel"],
+input[type="color"],
+.uneditable-input {
+  padding: 6px 6px;
+}
+
+.navbar-toggler:focus {
+  outline: none;
+  box-shadow: none;
+  border: 1px solid #cc181e;
+}
+
+.nav-link {
+  color: #fff;
+}
+.nav-link:hover {
+  color: #cc181e;
+}
+.navbar-nav .nav-link.active {
+  color: #cc181e;
+}

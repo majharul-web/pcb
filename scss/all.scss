@@ -1,0 +1,127 @@
+@import "partials/utilities.scss";
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font: {
+        family: $inter;
+      }
+}
+
+
+body, p{
+    font: {
+        size: 16px;
+        weight: $fontWSM;
+      }
+}
+
+p{
+    margin: 0 0 15px;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-weight: $fontWMD;
+    font-family: $montserrat;
+    margin: 0 0 15px;
+    line-height: 1.2em;
+}
+
+.flex{
+    display: flex;
+}
+.center{
+    justify-content: center;
+    align-items: center;
+}
+.between{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.t-center{
+    text-align: center;
+}
+.t-white{
+    color: $white;
+}
+
+
+/* 
+******top header css start
+*/
+
+.header-top{
+    background-color: $red;
+    font-size: 13px;
+    .top-brand{
+        a{
+            margin: 5px 7px;
+            display: inline-block;
+            padding: 15px 0;
+        }
+    }
+    .top-contact{
+        a{
+            margin: 5px 7px;
+            display: inline-block;
+           
+            img{
+                display: inline-block;
+                margin-right: 7px;
+            }
+            color: $white;
+            &:hover{
+                color: $white;
+            }
+        }
+    }
+    @media only screen and (min-width:1600px) {
+        font-size: 16px;
+    }
+}
+
+// navbar section
+.nav-bg{
+    background: $dark2;
+    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.6);
+    .nav-item {
+        margin: 0 20px;
+    }
+}
+
+
+
+
+
+
+/* 
+******top header css end
+*/
+
+// responsiveness
+@media only screen and (max-width:600px) {
+    .header-top .top-brand a{
+        margin: 5px 6px;
+    }
+}
+@media only screen and (max-width:$breakpoint-lg) {
+    .header-top{
+        display: none;
+    }
+}
+@media only screen and (max-width:1200px) and (min-width:$breakpoint-lg) {
+    .header-top .top-contact a img{
+        margin-right: 0;
+    }
+    .header-top .top-contact a{
+        margin: 5px 3px;
+    }
+    .nav-bg .nav-item {
+        margin: 0 5px;
+    }
+}

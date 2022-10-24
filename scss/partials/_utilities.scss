@@ -1,0 +1,91 @@
+
+// font family
+$inter:'Inter', sans-serif; 
+$montserrat:'Montserrat', sans-serif;
+
+/* colors */
+$dark: #000;
+$dark1:#0E0E0E;
+$dark2:#111111;
+$gray:#707070;
+$white:#fff;
+$red: #CC181E;
+$light-red: #F15A46;
+
+
+
+// font wight
+$fontWSM:400;
+$fontWMD:600;
+$fontWLG:700;
+$fontWXL:900;
+
+// breakPoints
+$breakpoint-sm: 576px;
+$breakpoint-md: 767px;
+$breakpoint-lg: 991px;
+$breakpoint-xl: 1200px;
+$breakpoint-xxl: 1400px;
+
+/* gaps */
+$hundred: 100px;
+$sixty: 60px;
+$fifty: 50px;
+$seventy: 70px;
+
+/* sizes */
+$twelve: 12px;
+$twentyTwo: 22px;
+$twentyFour: 24px;
+$twenty: 20px;
+$thirty: 30px;
+$thirtyFour: 34px;
+$fourty: 40px;
+$fourtyFive: 45px;
+
+/* percentages */
+$twentyP: 20%;
+    
+.inter {
+    font-family: $inter;
+}
+
+.mt-60 {
+    margin-top: $sixty;
+}
+  
+.mb-50 {
+    margin-bottom: $fifty;
+}
+.py-100 {
+    padding-top: $hundred;
+    padding-bottom: $hundred;
+}
+    
+.fs-22 {
+    font-size: $twentyTwo;
+}
+.fs-16 {
+    font-size: 16px;
+}
+
+.fs-20 {
+    font-size: $twenty;
+}
+
+.fs-24 {
+    font-size: $twentyFour;
+}
+  
+.fs-30 {
+    font-size: $thirty;
+}
+
+.fs-34 {
+    font-size: $thirtyFour;
+}
+  
+.fs-40 {
+    font-size: $fourty;
+}
+
