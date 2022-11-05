@@ -11,6 +11,28 @@ img {
 a {
   text-decoration: none;
 }
+.f-email {
+  outline: none;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+.subs-btn {
+  background-color: #fff;
+  outline: none;
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.f-email:focus {
+  border: 1px solid gray;
+}
+.t-center .faq-search {
+  border: 1px solid gray;
+}
+.t-center .faq-search:focus {
+  border: 1px solid gray;
+}
 
 /* bootstrap form customization */
 .form-check-input {

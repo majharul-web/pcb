@@ -1,24 +1,21 @@
-
 // font family
-$inter:'Inter', sans-serif; 
-$montserrat:'Montserrat', sans-serif;
+$inter: "Inter", sans-serif;
+$montserrat: "Montserrat", sans-serif;
 
 /* colors */
 $dark: #000;
-$dark1:#0E0E0E;
-$dark2:#111111;
-$gray:#707070;
-$white:#fff;
-$red: #CC181E;
-$light-red: #F15A46;
-
-
+$dark1: #0e0e0e;
+$dark2: #111111;
+$gray: #707070;
+$white: #fff;
+$red: #cc181e;
+$light-red: #f15a46;
 
 // font wight
-$fontWSM:400;
-$fontWMD:600;
-$fontWLG:700;
-$fontWXL:900;
+$fontWSM: 400;
+$fontWMD: 600;
+$fontWLG: 700;
+$fontWXL: 900;
 
 // breakPoints
 $breakpoint-sm: 576px;
@@ -45,126 +42,123 @@ $fourtyFive: 45px;
 
 /* percentages */
 $twentyP: 20%;
-    
+
 .inter {
-    font-family: $inter;
+  font-family: $inter;
 }
 
 .mt-60 {
-    margin-top: $sixty;
+  margin-top: $sixty;
 }
-  
+
 .mb-50 {
-    margin-bottom: $fifty;
+  margin-bottom: $fifty;
 }
 .py-100 {
-    padding-top: $hundred;
-    padding-bottom: $hundred;
+  padding-top: $hundred;
+  padding-bottom: $hundred;
 }
-    
+
 .fs-22 {
-    font-size: $twentyTwo;
+  font-size: $twentyTwo;
 }
 
 .fs-16 {
-    font-size: 16px;
+  font-size: 16px;
 }
 
 .fs-20 {
-    font-size: $twenty;
+  font-size: $twenty;
 }
 
 .fs-24 {
-    font-size: $twentyFour;
+  font-size: $twentyFour;
 }
-  
+
 .fs-30 {
-    font-size: $thirty;
+  font-size: $thirty;
 }
 
 .fs-34 {
-    font-size: $thirtyFour;
+  font-size: $thirtyFour;
 }
-  
+
 .fs-40 {
-    font-size: $fourty;
+  font-size: $fourty;
 }
 .fs-14 {
-    font-size: 14px;
+  font-size: 14px;
 }
 
-.muted{
-    color: #6E6E6E;
+.muted {
+  color: #6e6e6e;
 }
-.muted-2{
-    color: #707070;
+.muted-2 {
+  color: #707070;
 }
-.bold{
-    font-size: $fontWLG;
+.bold {
+  font-size: $fontWLG;
 }
-.mons{
-    font-family: $montserrat;
+.mons {
+  font-family: $montserrat;
 }
 
-.c-red{
-    color: $red;
+.c-red {
+  color: $red;
 }
 
 // Styling the default Slick dots
+.faq-tab {
+  margin: 3px 1px;
+}
 
 .do-dots {
-	display: flex;
-	margin: 0;
-	padding: 1rem 0;
-	list-style-type: none;
-		li {
-			margin: 0 0.45rem;
-            button {
-                display: block;
-                width: 1.5rem;
-                height: .3rem;
-                padding: 0;
-                border: none;
-                border-radius: 10px;
-                background-color: $gray;
-                text-indent: -9999px;
-            }
-		}
-	
-		
-	
-		li.slick-active button {
-			background-color: $white;
-		}
-	
+  display: flex;
+  margin: 0;
+  padding: 1rem 0;
+  list-style-type: none;
+  li {
+    margin: 0 0.45rem;
+    button {
+      display: block;
+      width: 1.5rem;
+      height: 0.3rem;
+      padding: 0;
+      border: none;
+      border-radius: 10px;
+      background-color: $gray;
+      text-indent: -9999px;
+    }
+  }
+
+  li.slick-active button {
+    background-color: $white;
+  }
 }
 .work-dots {
-	display: flex;
-    justify-content: center;
-	margin: 0;
-	padding: 1rem 0;
-	list-style-type: none;
-		li {
-			margin: 0 0.45rem;
-            button {
-                display: block;
-                width: 1.5rem;
-                height: .3rem;
-                padding: 0;
-                border: none;
-                border-radius: 10px;
-                border: 1px solid $red;
-                background-color: transparent;
-                text-indent: -9999px;
-            }
-		}
-	
-		
-	
-		li.slick-active button {
-			background-color: $red;
-		}
-	
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 1rem 0;
+  list-style-type: none;
+  li {
+    margin: 0 0.45rem;
+    button {
+      display: block;
+      width: 1.5rem;
+      height: 0.3rem;
+      padding: 0;
+      border: none;
+      border-radius: 10px;
+      border: 1px solid $red;
+      background-color: transparent;
+      text-indent: -9999px;
+    }
+  }
+
+  li.slick-active button {
+    background-color: $red;
+  }
 }
 
 // .slick-slider-dotss{
@@ -201,4 +195,3 @@ $twentyP: 20%;
 //     }
 
 // }
-

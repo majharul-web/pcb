@@ -1,320 +1,362 @@
 @import "partials/utilities.scss";
 
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-body{
-    font: {
-        family: $inter;
-      }
+body {
+  font: {
+    family: $inter;
+  }
 }
 
-
-body, p{
-    font: {
-        size: 16px;
-        weight: $fontWSM;
-      }
+body,
+p {
+  font: {
+    size: 16px;
+    weight: $fontWSM;
+  }
 }
 
-p{
-    margin: 0 0 15px;
+p {
+  margin: 0 0 15px;
 }
 
-h1,h2,h3,h4,h5,h6{
-    font-weight: $fontWMD;
-    font-family: $montserrat;
-    margin: 0 0 15px;
-    line-height: 1.2em;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: $fontWMD;
+  font-family: $montserrat;
+  margin: 0 0 15px;
+  line-height: 1.2em;
 }
 
-.flex{
-    display: flex;
+.flex {
+  display: flex;
 }
-.center{
-    justify-content: center;
-    align-items: center;
+.center {
+  justify-content: center;
+  align-items: center;
 }
-.between{
-    justify-content: space-between;
-    align-items: center;
-}
-
-.t-center{
-    text-align: center;
-}
-.t-white{
-    color: $white;
+.between {
+  justify-content: space-between;
+  align-items: center;
 }
 
+.t-center {
+  text-align: center;
+}
+.t-white {
+  color: $white;
+}
 
 /* 
 ******top header css start
 */
 
-.header-top{
-    background-color: $red;
-    font-size: 13px;
-    .top-brand{
-        a{
-            margin: 5px 7px;
-            display: inline-block;
-            padding: 5px 0;
-        }
+.header-top {
+  background-color: $red;
+  font-size: 13px;
+  .top-brand {
+    a {
+      margin: 5px 7px;
+      display: inline-block;
+      padding: 5px 0;
     }
-    .top-contact{
-        a{
-            margin: 5px 7px;
-            display: inline-block;
-           
-            img{
-                display: inline-block;
-                margin-right: 7px;
-            }
-            color: $white;
-            &:hover{
-                color: $white;
-            }
-        }
-    }
-    @media only screen and (min-width:1600px) {
-        font-size: 16px;
-    }
-}
+  }
+  .top-contact {
+    a {
+      margin: 5px 7px;
+      display: inline-block;
 
+      img {
+        display: inline-block;
+        margin-right: 7px;
+      }
+      color: $white;
+      &:hover {
+        color: $white;
+      }
+    }
+  }
+  @media only screen and (min-width: 1600px) {
+    font-size: 16px;
+  }
+}
 
 /* 
 ******top header css end
 */
 
-
 // navbar section
-.nav-bg{
-    background: $dark2;
-    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.6);
-    .nav-item {
-        margin: 0 20px;
-    }
+.nav-bg {
+  background: $dark2;
+  box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.6);
+  .nav-item {
+    margin: 0 20px;
+  }
 }
 
 // hero section
-.hero{
-    // background-image:linear-gradient(rgba(68, 66, 66, 0.5),rgba(160, 149, 149, 0.5)), url(/assets/img/blog-banner.jpg);
+.hero {
+  // background-image:linear-gradient(rgba(68, 66, 66, 0.5),rgba(160, 149, 149, 0.5)), url(/assets/img/blog-banner.jpg);
 
-    background-image: url(/assets/img/slider/slide1.png);
-    height: 70vh;
-    width: 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+  background-image: url(/assets/img/slider/slide1.png);
+  height: 70vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
-
 
 // slider section
 .carousel-caption {
-    position: absolute;
-    right: auto;
-    top: 20%;
-    left: 9%;
-    padding-top: 0;
-    padding-bottom: 0;
-    color: #fff;
-    text-align: center;
+  position: absolute;
+  right: auto;
+  top: 20%;
+  left: 9%;
+  padding-top: 0;
+  padding-bottom: 0;
+  color: #fff;
+  text-align: center;
 }
 
-.slide-image{
-    min-height: 70vh;
-    width: 100vw;
+.slide-image {
+  min-height: 70vh;
+  width: 100vw;
 }
 
-.slide-btn-box{
-    display: flex;
-    justify-content: flex-start;
+.slide-btn-box {
+  display: flex;
+  justify-content: flex-start;
 }
-
 
 // build card section
-.build-card{
-    background: #FFFFFF;
-    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.1);
-    border-radius: 20px;
+.build-card {
+  background: #ffffff;
+  box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
 }
 
-.card-1{
-    border: 1px solid #CC181E;
+.card-1 {
+  border: 1px solid #cc181e;
 }
 
-.card-head{
-    padding: 20px 15px 20px 30px;
+.card-head {
+  padding: 20px 15px 20px 30px;
 }
 
-.card-body{
-    padding: 20px 15px 20px 30px;
+.card-body {
+  padding: 20px 15px 20px 30px;
 }
 
-.card-foot{
-    a{
-        background: #F3F3F3;
-        color: #F15A46;
-        border-radius: 0px 0px 20px 20px;
-        display: block;
-        text-align: center;
-        font-weight: $fontWLG;
-        padding: 7px 0;
-        &:hover{
-             color: #F3F3F3;
-             background : #F15A46;
-             transition: 1s;
-        }
+.card-foot {
+  a {
+    background: #f3f3f3;
+    color: #f15a46;
+    border-radius: 0px 0px 20px 20px;
+    display: block;
+    text-align: center;
+    font-weight: $fontWLG;
+    padding: 7px 0;
+    &:hover {
+      color: #f3f3f3;
+      background: #f15a46;
+      transition: 1s;
     }
+  }
 }
-.rate-box{
-    background: $white;
-    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.08);
-    border-radius: 5px;
-    padding: 5px 7px;
+.rate-box {
+  background: $white;
+  box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.08);
+  border-radius: 5px;
+  padding: 5px 7px;
 }
-.card-foot-3{
-    a{
-        background: $red;
-        color: $white;
-        border-radius: 0px 0px 20px 20px;
-        display: block;
-        text-align: center;
-        font-weight: $fontWLG;
-        padding: 10px 0;
-    }
-}
-
-.card-1, .card-2, .card-3{
-    display: flex;
-    flex-direction: column;
-    align-items: stretch;
-   
+.card-foot-3 {
+  a {
+    background: $red;
+    color: $white;
+    border-radius: 0px 0px 20px 20px;
+    display: block;
+    text-align: center;
+    font-weight: $fontWLG;
+    padding: 10px 0;
+  }
 }
 
-#carouselExampleCaptions{
-    z-index: -1;
+.card-1,
+.card-2,
+.card-3 {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
 }
 
-.build{
-    z-index: 1000;
-    margin-top: -50px;
+#carouselExampleCaptions {
+  z-index: -1;
 }
 
+.build {
+  z-index: 1000;
+  margin-top: -50px;
+}
 
 .carousel-indicators {
-    bottom: 16%;
+  bottom: 16%;
 }
-
-
 
 /* 
 *************what we do
 */
-.what-do{
-      background-image:linear-gradient(89.73deg, #0E0E0E -35.84%, rgba(14, 14, 14, 0.458333) 91.74%, rgba(14, 14, 14, 0) 163.15%), url(/assets/img/do-back.png);
-      max-height: 90vh;
-      min-height: 70vh;
-      width: 100%;
-      background-repeat: no-repeat;
-      background-size: cover;
-      background-position: center;
-  
+.what-do {
+  background-image: linear-gradient(
+      89.73deg,
+      #0e0e0e -35.84%,
+      rgba(14, 14, 14, 0.458333) 91.74%,
+      rgba(14, 14, 14, 0) 163.15%
+    ),
+    url(/assets/img/do-back.png);
+  max-height: 90vh;
+  min-height: 70vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
-.what-do-1{
-    display: none;
-    background-image:linear-gradient(89.73deg, #0E0E0E -35.84%, rgba(14, 14, 14, 0.458333) 91.74%, rgba(14, 14, 14, 0) 163.15%), url(/assets/img/do-back.png);
-    max-height: 90vh;
-    min-height: 70vh;
-    width: 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+.what-do-1 {
+  display: none;
+  background-image: linear-gradient(
+      89.73deg,
+      #0e0e0e -35.84%,
+      rgba(14, 14, 14, 0.458333) 91.74%,
+      rgba(14, 14, 14, 0) 163.15%
+    ),
+    url(/assets/img/do-back.png);
+  max-height: 90vh;
+  min-height: 70vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
-.work{
-    padding: 30px 45px;
-    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.1);
-    border-radius: 20px;
-    margin: 5px 7px;
-    text-align: center;
-
+.work {
+  padding: 30px 45px;
+  box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  margin: 5px 7px;
+  text-align: center;
 }
 
-.custom-card{
-    background: $white;
-    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.1);
-    border-radius: 20px;
+.custom-card {
+  background: $white;
+  box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
 }
 
- 
+// pc section
 
+// faq
+.t-center .faq-search {
+  width: 50%;
+  display: inline-block;
+}
 
+// footer
+.footer {
+  background: #fcf3f4;
+  padding: 70px 0 20px 0;
+  .footer-links {
+    a {
+      display: block;
+      color: #0e0e0e;
+      font-size: 16px;
+      padding-bottom: 5px;
+    }
+  }
+}
+
+.contact {
+  color: #0e0e0e;
+}
+.footer-main {
+}
+
+.footer-socail {
+  a {
+    margin: 2px 5px;
+    font-size: 20px;
+    color: #0e0e0e;
+  }
+}
+.footer-bottom {
+  border-top: 1px solid $gray;
+  padding-top: 10px;
+}
 
 /*
 **************** responsiveness
 */
 
-@media only screen and (max-width:600px) {
-    .header-top .top-brand a{
-        margin: 5px 6px;
-    }
-    .slide-btn-box{
-        display: flex;
-        flex-direction: column;
-    }
-    .build{
-        margin-top: -50px;
-    }
-    .carousel-indicators {
-        bottom: 10%;
-    }
-    
+@media only screen and (max-width: 600px) {
+  .header-top .top-brand a {
+    margin: 5px 6px;
+  }
+  .slide-btn-box {
+    display: flex;
+    flex-direction: column;
+  }
+  .build {
+    margin-top: -50px;
+  }
+  .carousel-indicators {
+    bottom: 10%;
+  }
 }
-@media only screen and (max-width:$breakpoint-lg) {
-    .header-top{
-        display: none;
-    }
-    .carousel-caption{
-        right: 2%;
-    }
-    
+@media only screen and (max-width: $breakpoint-lg) {
+  .header-top {
+    display: none;
+  }
+  .carousel-caption {
+    right: 2%;
+  }
 }
-@media only screen and (max-width:$breakpoint-md) {
-    .do-content{
-        display: none;
-    }
-    .what-do-1{
-        display: block;
-    }
-  
-    
+@media only screen and (max-width: $breakpoint-md) {
+  .do-content {
+    display: none;
+  }
+  .what-do-1 {
+    display: block;
+  }
+  .t-center .faq-search {
+    width: 90%;
+  }
 }
-@media only screen and (max-width:1200px) and (min-width:$breakpoint-lg) {
-    .header-top .top-contact a img{
-        margin-right: 0;
-    }
-    .header-top .top-contact a{
-        margin: 5px 3px;
-    }
-    .nav-bg .nav-item {
-        margin: 0 5px;
-    }
+@media only screen and (max-width: 1200px) and (min-width: $breakpoint-lg) {
+  .header-top .top-contact a img {
+    margin-right: 0;
+  }
+  .header-top .top-contact a {
+    margin: 5px 3px;
+  }
+  .nav-bg .nav-item {
+    margin: 0 5px;
+  }
 }
-@media only screen  and (min-width:$breakpoint-xl) {
-    .carousel-indicators {
-        bottom: 16%;
-    }
+@media only screen and (min-width: $breakpoint-xl) {
+  .carousel-indicators {
+    bottom: 16%;
+  }
 }
-@media only screen and (max-width:991px) {
-    .build-row{
-        display: flex;
-        justify-content: center;
-
-    }
+@media only screen and (max-width: 991px) {
+  .build-row {
+    display: flex;
+    justify-content: center;
+  }
 }
