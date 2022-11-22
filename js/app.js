@@ -20,7 +20,7 @@ $(".do-slider").slick({
   dotsClass: "do-dots",
 });
 
-$(".work-slider").slick({
+$(".common-slider").slick({
   slidesToShow: 3,
   slidesToScroll: 1,
   infinite: true,
@@ -28,8 +28,23 @@ $(".work-slider").slick({
   arrows: false,
   autoplay: true,
   autoplaySpeed: 2000,
-
   dotsClass: "work-dots",
+  responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 1,
+      },
+    },
+    {
+      breakpoint: 768,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+      },
+    },
+  ],
 });
 
 const accordionItemHeaders = document.querySelectorAll(".accordion-item-header");

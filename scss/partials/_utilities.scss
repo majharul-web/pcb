@@ -69,6 +69,9 @@ $twentyP: 20%;
 .fs-16 {
   font-size: 16px;
 }
+.fs-15 {
+  font-size: 15px;
+}
 
 .fs-20 {
   font-size: $twenty;
@@ -120,6 +123,8 @@ $twentyP: 20%;
   margin: 0;
   padding: 1rem 0;
   list-style-type: none;
+  position: absolute;
+  bottom: 0px;
   li {
     margin: 0 0.45rem;
     button {

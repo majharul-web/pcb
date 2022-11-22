@@ -241,7 +241,7 @@ h6 {
   padding: 30px 45px;
   box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.1);
   border-radius: 20px;
-  margin: 5px 7px;
+  margin: 10px;
   text-align: center;
 }
 
@@ -249,6 +249,7 @@ h6 {
   background: $white;
   box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.1);
   border-radius: 20px;
+  margin: 10px;
 }
 
 // pc section
@@ -370,6 +371,17 @@ h6 {
   }
   .carousel-caption {
     right: 2%;
+  }
+  .fs-16 {
+    font-size: 15px;
+  }
+  .fs-20,
+  .fs-22,
+  .fs-24 {
+    font-size: 17px;
+  }
+  .fs-40 {
+    font-size: 25px;
   }
 }
 @media only screen and (max-width: $breakpoint-md) {

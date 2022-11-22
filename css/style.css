@@ -95,7 +95,39 @@ input[type="color"],
   outline: none;
   box-shadow: none;
   border: 1px solid #cc181e;
+  background-color: #cc181e;
 }
+
+/* custom toggle */
+.custom-toggler {
+  border: 1px solid #cc181e;
+  color: #ff1e25;
+}
+.navbar-toggler-icon {
+  color: #ff1e25;
+  display: inline-block;
+  width: auto;
+  height: auto;
+  vertical-align: middle;
+  background-image: none;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  font-size: 22px;
+}
+.custom-toggler:focus,
+.custom-toggler:hover {
+  background-color: $orange;
+}
+
+.custom-toggler:focus .navbar-toggler-icon {
+  color: white;
+}
+.custom-toggler:hover .navbar-toggler-icon {
+  color: white;
+}
+
+/* custom toggle */
 
 .nav-link {
   color: #fff;
@@ -144,6 +176,14 @@ input[type="color"],
 /* slick slider */
 .slick-dots {
   justify-content: flex-start;
+}
+
+.slick-track {
+  display: flex !important;
+}
+
+.slick-slide {
+  height: inherit !important;
 }
 
 /* acordion */

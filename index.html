@@ -79,7 +79,7 @@
             <img src="/assets/img/logo.png" alt="MPCB" />
           </a>
           <button
-            class="navbar-toggler"
+            class="custom-toggler navbar-toggler"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarSupportedContent"
@@ -87,7 +87,9 @@
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span class="navbar-toggler-icon"></span>
+            <span class="navbar-toggler-icon">
+              <i class="fa-solid fa-bars"></i>
+            </span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
@@ -541,7 +543,7 @@
                 <div class="do-slide">
                   <div class="flex flex-column py-3">
                     <h5 class="bold fs-40 t-white">What We <span class="c-red">Do 1</span></h5>
-                    <p class="t-white">
+                    <p class="fs-16 t-white">
                       Amazon Price Tracking is another most popular feature of BuildMyPc. When you find the
                       price of a component which is not according to your budget, or if you want to buy the
                       component at the lower price, then you can easily enable the price tracking for that
@@ -557,7 +559,7 @@
                 <div class="slide">
                   <div class="flex flex flex-column py-3">
                     <h5 class="bold fs-40 t-white">What We <span class="c-red">Do 2</span></h5>
-                    <p class="t-white">
+                    <p class="fs-16 t-white">
                       Amazon Price Tracking is another most popular feature of BuildMyPc. When you find the
                       price of a component which is not according to your budget, or if you want to buy the
                       component at the lower price, then you can easily enable the price tracking for that
@@ -574,7 +576,7 @@
                 <div class="slide">
                   <div class="flex flex flex-column py-3">
                     <h5 class="bold fs-40 t-white">What We <span class="c-red">Do 3</span></h5>
-                    <p class="t-white">
+                    <p class="fs-16 t-white">
                       Amazon Price Tracking is another most popular feature of BuildMyPc. When you find the
                       price of a component which is not according to your budget, or if you want to buy the
                       component at the lower price, then you can easily enable the price tracking for that
@@ -597,10 +599,12 @@
       <!-- how works system -->
       <section class="works py-5">
         <div class="container">
-          <div class="row work-slider">
-            <div class="col-12 col-md-6 col-lg-4 my-3 my-md-0">
+          <div class="row common-slider">
+            <div class="col-lg-4">
               <div class="work h-100">
-                <img class="py-2" src="assets/img/works1.png" alt="" />
+                <div class="flex center">
+                  <img class="py-2" src="assets/img/works1.png" alt="" />
+                </div>
                 <h6 class="fs-20 bold mons pt-2">We list Components</h6>
                 <p class="fs-16 muted">
                   Along with it, if you don't find any product on our website, then you can email our team and
@@ -608,9 +612,11 @@
                 </p>
               </div>
             </div>
-            <div class="col-12 col-md-6 col-lg-4 my-3 my-md-0">
+            <div class="col-lg-4 d-flex align-items-stretch">
               <div class="work h-100">
-                <img class="py-2" src="assets/img/work2.png" alt="" />
+                <div class="flex center">
+                  <img class="py-2" src="assets/img/work2.png" alt="" />
+                </div>
                 <h6 class="fs-20 bold mons pt-2">Check the Compatibility</h6>
                 <p class="fs-16 muted">
                   Although we try to add compatibility of all the products manually, but still if you find
@@ -619,9 +625,11 @@
                 </p>
               </div>
             </div>
-            <div class="col-12 col-md-6 col-lg-4 my-3 my-md-0">
+            <div class="col-lg-4 d-flex align-items-stretch">
               <div class="work h-100">
-                <img class="py-2" src="assets/img/work3.png" alt="" />
+                <div class="flex center">
+                  <img class="py-2" src="assets/img/work3.png" alt="" />
+                </div>
                 <h6 class="fs-20 bold mons pt-2">Create a High-End PC</h6>
                 <p class="fs-16 muted">
                   If you're not sure how to build your PC yourself, then you can also check the compatibility
@@ -629,17 +637,20 @@
                 </p>
               </div>
             </div>
-            <div class="col-12 col-md-6 col-lg-4 my-3 my-md-0 d-flex align-items-stretch">
-              <div class="work t-center">
-                <img class="py-2" src="assets/img/works1.png" alt="" />
-                <h6 class="fs-20 bold mons">We list Components</h6>
+            <div class="col-lg-4 d-flex align-items-stretch">
+              <div class="work h-100">
+                <div class="flex center">
+                  <img class="py-2" src="assets/img/work3.png" alt="" />
+                </div>
+                <h6 class="fs-20 bold mons pt-2">Create a High-End PC</h6>
                 <p class="fs-16 muted">
-                  Along with it, if you don't find any product on our website, then you can email our team and
-                  we'll add the product on our website especially for you!
+                  If you're not sure how to build your PC yourself, then you can also check the compatibility
+                  using Build My PC and take help from local shops to build your custom PC.
                 </p>
               </div>
             </div>
           </div>
+
           <!-- <div class="work-slider">
             <div class="work h-100">
               <img class="py-2" src="assets/img/works1.png" alt="" />
@@ -746,8 +757,8 @@
       <!-- pc -->
       <section class="pc py-5">
         <div class="container">
-          <div class="row">
-            <div class="col-12 col-md-6 col-lg-4">
+          <div class="row common-slider">
+            <div class="col-12 col-md-6 col-lg-4 align-items-stretch">
               <div class="custom-card t-center p-4 h-100">
                 <div class="pb-1">
                   <h3 class="mons fs-24 py-2 bold"><span class="c-red">RDY </span> Prebuilt Computers</h3>
@@ -757,10 +768,10 @@
                   </p>
                   <a href="#" class="btn btn-danger">Shop Now</a>
                 </div>
-                <div class="py-2"><img src="assets/img/pc1.png" alt="" /></div>
+                <div class="py-2 flex center"><img src="assets/img/pc1.png" alt="" /></div>
               </div>
             </div>
-            <div class="col-12 col-md-6 col-lg-4">
+            <div class="col-12 col-md-6 col-lg-4 align-items-stretch">
               <div class="custom-card t-center p-4 h-100">
                 <div class="pb-1">
                   <h3 class="mons fs-24 py-2 bold"><span class="c-red">Easy </span> Builder</h3>
@@ -770,10 +781,10 @@
                   </p>
                   <a href="#" class="btn btn-outline-danger">Start Building</a>
                 </div>
-                <div class="py-2"><img src="assets/img/pc2png.png" alt="" /></div>
+                <div class="py-2 flex center"><img src="assets/img/pc2png.png" alt="" /></div>
               </div>
             </div>
-            <div class="col-12 col-md-6 col-lg-4">
+            <div class="col-12 col-md-6 col-lg-4 align-items-stretch">
               <div class="custom-card t-center p-4 h-100">
                 <div class="pb-1">
                   <h3 class="mons fs-24 py-2 bold"><span class="c-red">Custom </span> Gaming PCs</h3>
@@ -783,7 +794,20 @@
                   </p>
                   <a href="#" class="btn btn-outline-danger">Start Building</a>
                 </div>
-                <div class="py-2"><img src="assets/img/pc3.png" alt="" /></div>
+                <div class="py-2 flex center"><img src="assets/img/pc3.png" alt="" /></div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 align-items-stretch">
+              <div class="custom-card t-center p-4 h-100">
+                <div class="pb-1">
+                  <h3 class="mons fs-24 py-2 bold"><span class="c-red">Custom </span> Gaming PCs</h3>
+                  <p class="muted fs-16 py-2">
+                    Custom build to order. Our PC builder lets you choose the components you need to outclass
+                    your adversaries.
+                  </p>
+                  <a href="#" class="btn btn-outline-danger">Start Building</a>
+                </div>
+                <div class="py-2 flex center"><img src="assets/img/pc3.png" alt="" /></div>
               </div>
             </div>
           </div>
@@ -823,10 +847,10 @@
       <!-- our-feat -->
       <section class="our-feat py-5">
         <div class="container">
-          <div class="row">
+          <div class="row common-slider">
             <div class="col-12 col-md-6 col-lg-4">
-              <div class="custom-card t-center p-4">
-                <div class="py-2"><img src="assets/img/fs.png" alt="" /></div>
+              <div class="custom-card t-center p-4 h-100">
+                <div class="py-2 flex center"><img src="assets/img/fs.png" alt="" /></div>
                 <div>
                   <h6 class="mons fs-22 py-2">Fast & Free Shipping</h6>
                   <p class="muted fs-16 py-2">
@@ -837,8 +861,8 @@
               </div>
             </div>
             <div class="col-12 col-md-6 col-lg-4">
-              <div class="custom-card t-center p-4">
-                <div class="py-2"><img src="assets/img/assemble.png" alt="" /></div>
+              <div class="custom-card t-center p-4 h-100">
+                <div class="py-2 flex center"><img src="assets/img/assemble.png" alt="" /></div>
                 <div>
                   <h6 class="mons fs-22 py-2">Assembled in the USA</h6>
                   <p class="muted fs-16 py-2">
@@ -849,8 +873,20 @@
               </div>
             </div>
             <div class="col-12 col-md-6 col-lg-4">
-              <div class="custom-card t-center p-4">
-                <div class="py-2"><img src="assets/img/warenty.png" alt="" /></div>
+              <div class="custom-card t-center p-4 h-100">
+                <div class="py-2 flex center"><img src="assets/img/warenty.png" alt="" /></div>
+                <div>
+                  <h6 class="mons fs-22 py-2">Standard 3 Year Warranty</h6>
+                  <p class="muted fs-16 py-2">
+                    Our gaming PCs will be shipped the same day with free two-day shipping (excluding custom
+                    gaming PCs and laptops).
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="custom-card t-center p-4 h-100">
+                <div class="py-2 flex center"><img src="assets/img/warenty.png" alt="" /></div>
                 <div>
                   <h6 class="mons fs-22 py-2">Standard 3 Year Warranty</h6>
                   <p class="muted fs-16 py-2">
@@ -897,93 +933,91 @@
 
           <!-- main faq -->
 
-          <div class="container">
-            <div class="row">
-              <div class="accordion">
-                <div class="accordion-item">
-                  <div class="accordion-item-header">About Us</div>
-                  <!-- /.accordion-item-header -->
-                  <div class="accordion-item-body">
-                    <div class="accordion-item-body-content">
-                      BuildMyPC is a custom PC builder website, which allows you to build your own custom PC
-                      best possible as per your budget. Users can easily compare various available components
-                      under their budget in terms of their features and prices from different retailers online
-                      so users can decide which component to choose accordingly.
-                      <br />
-                      <br />
+          <div class="row">
+            <div class="accordion">
+              <div class="accordion-item">
+                <div class="accordion-item-header">About Us</div>
+                <!-- /.accordion-item-header -->
+                <div class="accordion-item-body">
+                  <div class="accordion-item-body-content">
+                    BuildMyPC is a custom PC builder website, which allows you to build your own custom PC
+                    best possible as per your budget. Users can easily compare various available components
+                    under their budget in terms of their features and prices from different retailers online
+                    so users can decide which component to choose accordingly.
+                    <br />
+                    <br />
 
-                      BuildMyPC provides its users with various features and functionality like compatibility
-                      checkers, listing their builds, sharing their Rigs, price drop alert, various kinds of
-                      filters to filters the component you like.
-                      <br />
-                      <br />
+                    BuildMyPC provides its users with various features and functionality like compatibility
+                    checkers, listing their builds, sharing their Rigs, price drop alert, various kinds of
+                    filters to filters the component you like.
+                    <br />
+                    <br />
 
-                      BuildMyPC is a site build by keeping in mind to provide its users with what's best in
-                      the market. Anyone can create the custom PC with the help of our tool as we undergo
-                      various compatibility tests for all the components so that only compatible parts are
-                      provided to their users.
-                    </div>
+                    BuildMyPC is a site build by keeping in mind to provide its users with what's best in the
+                    market. Anyone can create the custom PC with the help of our tool as we undergo various
+                    compatibility tests for all the components so that only compatible parts are provided to
+                    their users.
                   </div>
-                  <!-- /.accordion-item-body -->
                 </div>
-                <div class="accordion-item">
-                  <div class="accordion-item-header">How and When Website Came to Existence</div>
-                  <!-- /.accordion-item-header -->
-                  <div class="accordion-item-body">
-                    <div class="accordion-item-body-content">
-                      Web Development broadly refers to the tasks associated with developing functional
-                      websites and applications for the Internet. The web development process includes web
-                      design, web content development, client-side/server-side scripting and network security
-                      configuration, among other tasks.
-                    </div>
-                  </div>
-                  <!-- /.accordion-item-body -->
-                </div>
-                <div class="accordion-item">
-                  <div class="accordion-item-header">
-                    Are there any other websites in the market which helps you to build your custom PC?
-                  </div>
-                  <!-- /.accordion-item-header -->
-                  <div class="accordion-item-body">
-                    <div class="accordion-item-body-content">
-                      Web Development broadly refers to the tasks associated with developing functional
-                      websites and applications for the Internet. The web development process includes web
-                      design, web content development, client-side/server-side scripting and network security
-                      configuration, among other tasks.
-                    </div>
-                  </div>
-                  <!-- /.accordion-item-body -->
-                </div>
-                <div class="accordion-item">
-                  <div class="accordion-item-header">
-                    How precise is the Build My PC in testing the compatibility and latest component pricing?
-                  </div>
-                  <!-- /.accordion-item-header -->
-                  <div class="accordion-item-body">
-                    <div class="accordion-item-body-content">
-                      Web Development broadly refers to the tasks associated with developing functional
-                      websites and applications for the Internet. The web development process includes web
-                      design, web content development, client-side/server-side scripting and network security
-                      configuration, among other tasks.
-                    </div>
-                  </div>
-                  <!-- /.accordion-item-body -->
-                </div>
-                <div class="accordion-item">
-                  <div class="accordion-item-header">I need to contribute to BMPC. How can I help?</div>
-                  <!-- /.accordion-item-header -->
-                  <div class="accordion-item-body">
-                    <div class="accordion-item-body-content">
-                      Web Development broadly refers to the tasks associated with developing functional
-                      websites and applications for the Internet. The web development process includes web
-                      design, web content development, client-side/server-side scripting and network security
-                      configuration, among other tasks.
-                    </div>
-                  </div>
-                  <!-- /.accordion-item-body -->
-                </div>
-                <!-- /.accordion-item -->
+                <!-- /.accordion-item-body -->
               </div>
+              <div class="accordion-item">
+                <div class="accordion-item-header">How and When Website Came to Existence</div>
+                <!-- /.accordion-item-header -->
+                <div class="accordion-item-body">
+                  <div class="accordion-item-body-content">
+                    Web Development broadly refers to the tasks associated with developing functional websites
+                    and applications for the Internet. The web development process includes web design, web
+                    content development, client-side/server-side scripting and network security configuration,
+                    among other tasks.
+                  </div>
+                </div>
+                <!-- /.accordion-item-body -->
+              </div>
+              <div class="accordion-item">
+                <div class="accordion-item-header">
+                  Are there any other websites in the market which helps you to build your custom PC?
+                </div>
+                <!-- /.accordion-item-header -->
+                <div class="accordion-item-body">
+                  <div class="accordion-item-body-content">
+                    Web Development broadly refers to the tasks associated with developing functional websites
+                    and applications for the Internet. The web development process includes web design, web
+                    content development, client-side/server-side scripting and network security configuration,
+                    among other tasks.
+                  </div>
+                </div>
+                <!-- /.accordion-item-body -->
+              </div>
+              <div class="accordion-item">
+                <div class="accordion-item-header">
+                  How precise is the Build My PC in testing the compatibility and latest component pricing?
+                </div>
+                <!-- /.accordion-item-header -->
+                <div class="accordion-item-body">
+                  <div class="accordion-item-body-content">
+                    Web Development broadly refers to the tasks associated with developing functional websites
+                    and applications for the Internet. The web development process includes web design, web
+                    content development, client-side/server-side scripting and network security configuration,
+                    among other tasks.
+                  </div>
+                </div>
+                <!-- /.accordion-item-body -->
+              </div>
+              <div class="accordion-item">
+                <div class="accordion-item-header">I need to contribute to BMPC. How can I help?</div>
+                <!-- /.accordion-item-header -->
+                <div class="accordion-item-body">
+                  <div class="accordion-item-body-content">
+                    Web Development broadly refers to the tasks associated with developing functional websites
+                    and applications for the Internet. The web development process includes web design, web
+                    content development, client-side/server-side scripting and network security configuration,
+                    among other tasks.
+                  </div>
+                </div>
+                <!-- /.accordion-item-body -->
+              </div>
+              <!-- /.accordion-item -->
             </div>
           </div>
         </div>
