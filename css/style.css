@@ -192,3 +192,8 @@ input[type="color"],
   outline: 0 !important;
   box-shadow: none;
 }
+
+.common-slider div {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
